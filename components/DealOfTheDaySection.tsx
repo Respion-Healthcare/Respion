@@ -15,7 +15,7 @@ export default function DealOfTheDay() {
     "oxymed-portable-oxygen-concentrator",
     "oxymed-oxygen-concentrator-5lpm",
     "oxymed-10ltr-oxygen-concentrator",
-    "philips-everflo-oxygen-concentrator",
+    "nidek-neo-5lpm-oxygen-concentrator",
     "resmed-airmini-f30-setup-pack",
   ]
 

@@ -43,7 +43,7 @@ export const products: Product[] = [
 
 { id: 12, slug: "oxymed-10ltr-oxygen-concentrator", name: "OxyMed 10 Ltr Oxygen Concentrator", price: 56000, category: "oxygen-concentrator", description: "High capacity concentrator.", images: ["/images/deal3.jpg"], specifications: [{ label: "Brand", value: "Oxymed" }, { label: "Capacity", value: "10LPM" }] },
 
-{ id: 13, slug: "philips-everflo-oxygen-concentrator", name: "Philips EverFlo Home Oxygen (5 LPM)", price: 59000, category: "oxygen-concentrator", description: "Home oxygen concentrator.", images: ["/images/deal4.webp"], specifications: [{ label: "Brand", value: "Philips" }, { label: "Capacity", value: "5LPM" }] },
+{ id: 13, slug: "nidek-neo-5lpm-oxygen-concentrator", name: "Nidek NEO 5lpm Oxygen Concentrator", price: 43000, category: "oxygen-concentrator", description: "Home oxygen concentrator.", images: ["/images/nidek1.jpg"], specifications: [{ label: "Brand", value: "Philips" }, { label: "Capacity", value: "5LPM" }] },
 
 { id: 14, slug: "resmed-airmini-f30-setup-pack", name: "Resmed AirMini F30 Setup Pack", price: 2900, category: "accessory", description: "Setup pack for AirMini.", images: ["/images/deal5.webp"], specifications: [{ label: "Brand", value: "ResMed" }, { label: "Category", value: "CPAP Accessory" }] },
 
