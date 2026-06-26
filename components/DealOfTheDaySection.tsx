@@ -49,7 +49,7 @@ export default function DealOfTheDay() {
         <div className="flex items-center gap-4 mb-8">
 
           <h2 className="text-2xl font-semibold">
-            Daily Deal Of The Day
+            Deals Of The Day
           </h2>
 
           {/* TIMER */}
