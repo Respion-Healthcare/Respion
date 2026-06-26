@@ -205,7 +205,7 @@ export default function Header() {
           <Link href="/about">About Us</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/blogs">Blogs</Link>
-
+ <Link href="/career">Career</Link>
         </nav>
 
         {/* SEARCH */}

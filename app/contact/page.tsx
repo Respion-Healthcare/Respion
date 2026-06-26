@@ -68,64 +68,157 @@ export default function ContactPage() {
           Love to hear from you!
         </p>
 
-        {/* CONTACT INFO ROW */}
-        <div className="grid md:grid-cols-3 gap-12 mt-16 text-left">
+       {/* CONTACT INFO ROW */}
+<div className="grid md:grid-cols-3 gap-12 mt-16 text-left">
 
-          <a
-            href="https://maps.google.com/?q=702,13th Cross Rd,J.P Nagar,Bengaluru,560078"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-start gap-4 group hover:bg-white p-4 rounded-xl transition"
-          >
-            <MapPin className="text-blue-500 w-7 h-7 mt-1 group-hover:scale-110 transition" />
-            <div>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">
-                Address
-              </h3>
-              <p className="text-gray-600 leading-relaxed group-hover:text-gray-800">
-                702, 13th Cross Rd, 1st Phase, J.P Nagar, <br />
-                Bengaluru, Karnataka, 560078
-              </p>
-            </div>
-          </a>
+  {/* REGISTERED ADDRESS */}
+  <div className="flex items-start gap-4 group hover:bg-white p-4 rounded-xl transition">
+    <MapPin className="text-blue-500 w-7 h-7 mt-1 group-hover:scale-110 transition" />
 
-          <a
-            href="tel:+919148733700"
-            className="flex items-start gap-4 group hover:bg-white p-4 rounded-xl transition"
-          >
-            <Phone className="text-blue-500 w-7 h-7 mt-1 group-hover:scale-110 transition" />
-            <div>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">
-                Contact
-              </h3>
-              <p className="text-gray-600 group-hover:text-gray-800">
-                Mobile:{" "}
-                <span className="font-medium text-gray-800 underline underline-offset-4">
-                  +91 9148733700
-                </span>
-              </p>
-            </div>
-          </a>
+    <div>
+      <p className="text-sm font-semibold text-blue-600 uppercase tracking-wide">
+        Registered Address
+      </p>
 
-          <a
-            href="mailto:Respion.in@gmail.com"
-            className="flex items-start gap-4 group hover:bg-white p-4 rounded-xl transition"
-          >
-            <Mail className="text-blue-500 w-7 h-7 mt-1 group-hover:scale-110 transition" />
-            <div>
-              <h3 className="font-semibold text-lg text-gray-800 mb-2">
-                Email Us
-              </h3>
-              <p className="text-gray-600 group-hover:text-gray-800">
-                Email:{" "}
-                <span className="font-medium text-gray-800 underline underline-offset-4">
-                  Respion.in@gmail.com
-                </span>
-              </p>
-            </div>
-          </a>
+      <p className="text-gray-600 leading-relaxed mt-2">
+        Plot No. 331 A, Saheed Nagar,
+        <br />
+        Bhubaneswar, Odisha 751007
+      </p>
 
-        </div>
+      <p className="text-sm font-semibold text-blue-600 uppercase tracking-wide mt-5">
+        Corporate Office
+      </p>
+
+      <p className="text-gray-600 leading-relaxed mt-2">
+        702, 13th Cross Rd, 1st Phase,
+        <br />
+        J. P. Nagar,
+        <br />
+        Bengaluru, Karnataka 560078
+      </p>
+
+      <p className="text-sm font-semibold text-blue-600 uppercase tracking-wide mt-5">
+        Head Office
+      </p>
+
+      <p className="text-gray-600 leading-relaxed mt-2">
+        1st Floor, 13/B, Flat No-3,
+        <br />
+        Kalighat,
+        <br />
+        Kolkata, West Bengal 700026
+      </p>
+    </div>
+  </div>
+
+  {/* CONTACT */}
+  <a
+    href="tel:+919937144165"
+    className="flex items-start gap-4 group hover:bg-white p-4 rounded-xl transition"
+  >
+    <Phone className="text-blue-500 w-7 h-7 mt-1 group-hover:scale-110 transition" />
+
+    <div>
+      <h3 className="font-semibold text-lg text-gray-800 mb-2">
+        Contact
+      </h3>
+
+      <p className="text-gray-600">
+        Toll Free:
+        <br />
+        <span className="font-medium text-gray-800 underline underline-offset-4">
+          +91 9937144165
+        </span>
+      </p>
+    </div>
+  </a>
+
+  {/* EMAIL */}
+  <a
+    href="mailto:enquiry@respion.in"
+    className="flex items-start gap-4 group hover:bg-white p-4 rounded-xl transition"
+  >
+    <Mail className="text-blue-500 w-7 h-7 mt-1 group-hover:scale-110 transition" />
+
+    <div>
+      <h3 className="font-semibold text-lg text-gray-800 mb-2">
+        Email Us
+      </h3>
+
+      <p className="text-gray-600">
+        Email:
+        <br />
+        <span className="font-medium text-gray-800 underline underline-offset-4">
+          enquiry@respion.in
+        </span>
+      </p>
+    </div>
+  </a>
+
+</div>
+
+{/* EMAIL DEPARTMENTS */}
+<section className="py-14">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
+      Email Directory
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-6">
+
+      {/* HR */}
+      <a
+        href="mailto:hr.respion@gmail.com"
+        className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl p-8 text-center text-white shadow-lg hover:shadow-xl transition hover:-translate-y-1"
+      >
+        <Mail className="w-12 h-12 mx-auto mb-5" />
+
+        <h3 className="text-2xl font-semibold mb-4">
+          HR Enquiries
+        </h3>
+
+        <p className="text-lg break-all">
+          hr.respion@gmail.com
+        </p>
+      </a>
+
+      {/* SALES */}
+      <a
+        href="mailto:sales.respion@gmail.com"
+        className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl p-8 text-center text-white shadow-lg hover:shadow-xl transition hover:-translate-y-1"
+      >
+        <Mail className="w-12 h-12 mx-auto mb-5" />
+
+        <h3 className="text-2xl font-semibold mb-4">
+          Sales Enquiries
+        </h3>
+
+        <p className="text-lg break-all">
+          sales.respion@gmail.com
+        </p>
+      </a>
+
+      {/* GENERAL */}
+      <a
+        href="mailto:enquiry.respion@gmail.com"
+        className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl p-8 text-center text-white shadow-lg hover:shadow-xl transition hover:-translate-y-1"
+      >
+        <Mail className="w-12 h-12 mx-auto mb-5" />
+
+        <h3 className="text-2xl font-semibold mb-4">
+          General Enquiries
+        </h3>
+
+        <p className="text-lg break-all">
+          enquiry.respion@gmail.com
+        </p>
+      </a>
+
+    </div>
+  </div>
+</section>
       </section>
       
       {/* BRANCHES */}
